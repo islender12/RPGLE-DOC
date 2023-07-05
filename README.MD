@@ -13,7 +13,7 @@
   proporcione y conforme se encuentre con nuevas soluciones Aquí se estara marcando 
   cada una de ellas detallando el funcionamiento de cada una de ellas
 
-## Declacion 
+## Declaración 
 
   - dcl-s: (declare scalar), se usa para declarar variables.  
   Ejemplo: dcl-s nombre char(40);  
