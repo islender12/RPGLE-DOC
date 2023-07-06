@@ -163,6 +163,18 @@
     enddo;
   ````
 
+  ## Ciclo FOR
+  ````
+    FOR i = 1 to 10;                  
+      IF NOT %EOF(sclif01);            
+        CHAIN (tipodoc:DOCUME) sclif01; 
+        IF %FOUND(sclif01);             
+          DSPLY NOMBR1;                  
+        ENDIF;                          
+      ENDIF;                           
+      READ sclif01;                    
+    ENDFOR;
+  ````
   ## Otros Ciclos
    
    Proximamente .....  
